@@ -9,11 +9,12 @@ setup(
     url='https://github.com/luxtenebriso/codona-gematree-bridge',
     packages=find_packages(),
     py_modules=['gematree_to_codona'],
-    entry_points={
-        'console_scripts': [
-            'codona-capsule=gematree_to_codona:generate_codona_capsule'
-        ]
-    },
+   entry_points={
+    'console_scripts': [
+        'codona-capsule=cli:main'
+    ]
+},
+
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
@@ -23,3 +24,4 @@ setup(
     ],
     python_requires='>=3.7',
 )
+linked cli.py in setup.py for codona-capsule command
