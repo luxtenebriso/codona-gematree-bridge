@@ -1,27 +1,24 @@
 ![Codona × GemaTreeAC](banner.png)
-# 🌱 GemaTreeAC × Codona Capsule Linker
 
-This Python module connects [GemaTreeAC](https://github.com/jaakkopee/gematreeac) to the Codona Shrine Console—transforming gematria trees into audio–visual capsule payloads.
 
-## What it does
+# 🌿 Codona × GemaTreeAC · Resonance Capsule Bridge
 
-- Accepts a phrase (e.g. "Amrita")
-- Calculates gematria value and reduces to root
-- Maps digital root to tone arc and vowel arc
-- Outputs `CodonaCapsule_[phrase].json` containing capsule data
 
-## Example Output
+This repository is a symbolic computing bridge that links [GemaTreeAC](https://github.com/jaakkopee/gematreeac) (gematria reduction trees) with the **Codona Shrine Console**, a real-time capsule environment where phrase, tone, vowel, and glyph produce resonance artifacts.
 
-```json
-{
-  "phrase": "AMRITA",
-  "digitalRoot": 3,
-  "toneArc": [432, 384, 432],
-  "vowelArc": ["A", "I", "A"],
-  "cipherTrail": {
-    "Ordinal": 84,
-    "ReductionSteps": [84, 12, 3]
-  },
-  "glyph": "GlyphOverlay_Amrita.svg",
-  "mode": "SpiralBreath"
-}
+---
+
+## ⚡ Quickstart
+
+```bash
+## ⚡ Quickstart
+# Clone the repo
+git clone https://github.com/luxtenebriso/codona-gematree-bridge
+cd codona-gematree-bridge
+
+# Install locally
+pip install .
+
+# Generate your first capsule
+codona-capsule "Amrita"
+
