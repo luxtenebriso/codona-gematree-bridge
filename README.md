@@ -1,3 +1,4 @@
+![Codona × GemaTreeAC](banner.png)
 # 🌱 GemaTreeAC × Codona Capsule Linker
 
 This Python module connects [GemaTreeAC](https://github.com/jaakkopee/gematreeac) to the Codona Shrine Console—transforming gematria trees into audio–visual capsule payloads.
